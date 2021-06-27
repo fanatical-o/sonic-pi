@@ -1,5 +1,9 @@
+live_loop :drum do
+  sample :loop_amen, amp: 2, beat_stretch: 2
+  sleep 2
+end
+
 live_loop :rick do
-  
   use_synth :chiplead
   use_random_seed 3213
   
